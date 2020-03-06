@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Index from "./pages/Index";
+import App from "./pages/App/App";
 
-const Router = () => {
+const RouterDom = () => {
     return (<>
         <BrowserRouter>
             <Switch>
-                <Route path="/"><Index /></Route>
+                <Route path="/"><App /></Route>
             </Switch>
         </BrowserRouter>
     </>)
 }
 
 
-export default Router;
+export default RouterDom;
