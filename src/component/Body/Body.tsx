@@ -8,8 +8,12 @@ const Body = () => {
         <Slider />
 
         <div className="Card">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
+            <div className="Card__container">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
+            </div>
         </div>
+
+        
     </div>);
 
 }
