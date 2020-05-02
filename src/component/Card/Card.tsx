@@ -3,7 +3,9 @@ import "./Card.scss";
 
 const Card = () => {
     return (<div className="Card">
-        <div className="Card__circle"></div>
+        <div className="Card__circle">
+            <p>Esto es una carta</p>
+        </div>
     </div>);
 }
 

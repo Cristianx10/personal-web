@@ -1,3 +1,23 @@
-.Slider{
-    height: 600px;
+.CSlider{
+    height: 700px;
+
+    .size1{
+        background-size: contain;
+        height: 200px;
+        width: 200px;
+    }
+
+    .size2{
+        background-size: contain;
+        height: 250px;
+        width: 250px;
+    }
+
+    .slider-1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        font-weight: bold;
+    }
 }
