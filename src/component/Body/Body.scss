@@ -2,9 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
-
     flex-grow: 1;
+
+    
+    &__services{
+        display: flex;
+    }
 }
 
 .Card{
@@ -31,4 +34,5 @@
         height: 300px;
         box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
     }
+
 }
