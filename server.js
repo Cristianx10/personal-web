@@ -7,4 +7,10 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.listen(9000);
+// Settings
+app.set("port", process.env.PORT || 4000);
+
+// Starting the server
+app.listen(app.get("port"), () => {
+  console.log(`Server on port ${app.get("port")}`);
+});
