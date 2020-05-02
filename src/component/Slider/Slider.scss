@@ -20,4 +20,9 @@
         width: 100%;
         font-weight: bold;
     }
+
+    .indicators{
+        bottom: 80px !important;
+        z-index: 11;
+    }
 }
