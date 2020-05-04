@@ -7,7 +7,7 @@ interface IBody {
 
 const Body = (props: IBody) => {
 
-    return (<div className="Body">
+    return (<div className="Body slidein">
         {Array.isArray(props.children) ? props.children.map((child) => {
             return child;
         }) : props.children}

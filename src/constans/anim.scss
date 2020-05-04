@@ -1,0 +1,16 @@
+.slidein {
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes slidein {
+    from {
+ 
+     height: 0%;
+    }
+    
+    to {
+        height: 100%;
+   }
+  }
