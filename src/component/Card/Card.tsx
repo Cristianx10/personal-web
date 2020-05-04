@@ -24,10 +24,10 @@ const Card = (props: ICard) => {
                         <span className="card-title">{props.title}</span>
                     </div>
                     <div className="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                        <p></p>
                     </div>
                     <div className="card-action">
-                        <a href={props.url}>This is a link</a>
+                        <a href={props.url}>Entrar</a>
                     </div>
                 </div>
             </div>
