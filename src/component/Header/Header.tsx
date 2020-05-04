@@ -7,10 +7,10 @@ const Header = () => {
         <div className="Header">
             <nav className="Header__navegation">
                 <ul className="Header__navegation__list">
-                    <li className="Header__navegation__list__item">Inicio</li>
-                    <li className="Header__navegation__list__item">Portafolio</li>
-                    <li className="Header__navegation__list__item">Caracteristicas</li>
-                    <li className="Header__navegation__list__item">Contacto</li>
+                    <li className="Header__navegation__list__item"><a>Inicio</a></li>
+                    <li className="Header__navegation__list__item"><a href="/portafolio">Portafolio</a></li>
+                    <li className="Header__navegation__list__item"><a>Caracteristicas</a></li>
+                    <li className="Header__navegation__list__item"><a>Contacto</a></li>
                 </ul>
             </nav>
             <div className="Header__logo">

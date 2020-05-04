@@ -1,9 +1,7 @@
-.Card{
-    &__circle{
-        display: flex;
-        background: #F59F11;
-        width: 100px;
-        height: 100px;
-        border-radius: 100px;
-    }
+.CCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+
 }
