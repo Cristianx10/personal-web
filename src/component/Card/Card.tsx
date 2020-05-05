@@ -13,13 +13,13 @@ const Card = (props: ICard) => {
 
     return (<div className="CCard">
 
-        <div className="row"
-            onClick={() => {
-                props.onClick(props);
-            }}>
+        <div className="row">
             <div className="col">
                 <div className="card">
-                    <div className="card-image">
+                    <div className="card-image"
+                        onClick={() => {
+                            props.onClick(props);
+                        }}>
                         <img src={props.background} />
                         <span className="card-title">{props.title}</span>
                     </div>
@@ -27,7 +27,7 @@ const Card = (props: ICard) => {
                         <p></p>
                     </div>
                     <div className="card-action">
-                        <a href={props.url}>Entrar</a>
+                        <a target="_blank" href={props.url}>Entrar</a>
                     </div>
                 </div>
             </div>

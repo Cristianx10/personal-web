@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.scss"
 
 
 const Header = () => {
 
+    useEffect(() => {
+        document.addEventListener('DOMContentLoaded', function () {
+            const W = window as any;
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = W.M.ScrollSpy.init(elems, {});
+        });
+    }, [])
     return (
         <div className="Header">
-            
+
             <div className="Header__logo">
                 <img className="Header__logo__img" src="/img/logo.svg" alt="" />
             </div>
