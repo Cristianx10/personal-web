@@ -1,4 +1,4 @@
-import React, { ReactChild } from "react";
+import React, { ReactChild, useEffect } from "react";
 import "./App.scss";
 import Header from "../../component/Header/Header";
 import Footer from "../../component/Footer/Footer";
@@ -12,6 +12,7 @@ interface IApp {
 
 
 const App = (props: IApp) => {
+
     return <div className="App">
         <Header />
         <SideBar />

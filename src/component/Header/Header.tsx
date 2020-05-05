@@ -4,13 +4,7 @@ import "./Header.scss"
 
 const Header = () => {
 
-    useEffect(() => {
-        document.addEventListener('DOMContentLoaded', function () {
-            const W = window as any;
-            var elems = document.querySelectorAll('.scrollspy');
-            var instances = W.M.ScrollSpy.init(elems, {});
-        });
-    }, [])
+  
     return (
         <div className="Header">
 
@@ -21,7 +15,7 @@ const Header = () => {
                 <ul className="Header__navegation__list">
                     <li className="Header__navegation__list__item"><a href="/">HOME</a></li>
                     <li className="Header__navegation__list__item"><a href="/portafolio">PORTAFOLIO</a></li>
-                    <li className="Header__navegation__list__item"><a href="#contact">CONTACTO</a></li>
+                    <li className="Header__navegation__list__item"><a href="#contacto">CONTACTO</a></li>
 
                 </ul>
             </nav>

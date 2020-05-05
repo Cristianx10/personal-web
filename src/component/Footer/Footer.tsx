@@ -4,8 +4,10 @@ import "./Footer.scss"
 
 const Footer = () => {
 
+    
+
     return (
-        <footer className="Footer">
+        <footer id="contacto" className="Footer scrollspy">
             <div className="Footer__container">
                 <div className="seccion">
                     <img src="/img/logo.svg" alt="" width="100" />
