@@ -27,7 +27,6 @@ const Portafolio = (props: IPortafolio) => {
             :
             <div className="proyectos">
 
-
                 <Card
                     onClick={(e: ICard) => {
                         setUrl(e.url);

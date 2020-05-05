@@ -12,10 +12,12 @@ html, body, #root{
 }
 
 body{
-    background: darkgray;
+    
 }
 
 .App{
+    position: relative;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,6 +25,6 @@ body{
     max-width: $max-width;
     margin: auto;
 
-    overflow: hidden;
+    overflow: scroll;
 
 }
