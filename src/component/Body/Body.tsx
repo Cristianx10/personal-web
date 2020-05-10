@@ -1,4 +1,4 @@
-import React, { ReactChild } from "react";
+import React, { ReactChild, useEffect } from "react";
 import "./Body.scss";
 
 interface IBody {
@@ -7,7 +7,8 @@ interface IBody {
 
 const Body = (props: IBody) => {
 
-    return (<div className="Body slidein">
+
+    return (<div id="inicio" className="Body slidein scrollspy">
         {Array.isArray(props.children) ? props.children.map((child) => {
             return child;
         }) : props.children}

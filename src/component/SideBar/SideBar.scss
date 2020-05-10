@@ -5,12 +5,9 @@
     align-items: center;
 
     width: 150px;
+  
 
     position: absolute;
     top: 20px;
-    
-}
-
-.sidenav{
-    z-index: 100;
+    z-index: 10000;
 }

@@ -1,5 +1,9 @@
 .CSlider{
-    height: 700px;
+
+    height: 100vh;
+    .slider, .slider > .slides{
+        height: 100% !important;
+    }
 
     .size1{
         background-size: contain;

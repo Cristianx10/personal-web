@@ -1,16 +1,34 @@
 .slidein {
-    animation-duration: 1s;
-    animation-name: slidein;
-    animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+
+   height: 0%;
   }
   
-  @keyframes slidein {
-    from {
- 
-     height: 0%;
-    }
-    
-    to {
-        height: 100%;
-   }
+  to {
+      height: 100%;
+ }
+}
+
+
+.anim-giro {
+  animation-duration: 1s;
+  animation-name: giro;
+  animation-iteration-count: 1;
+}
+
+@keyframes giro {
+  from {
+
+    transform: rotate(0deg);
   }
+  
+  to {
+    transform: rotate(360deg);
+ }
+}

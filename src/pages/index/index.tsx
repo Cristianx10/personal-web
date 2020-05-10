@@ -5,7 +5,7 @@ import "./index.scss";
 
 const Index = () => {
 
-    return <div>
+    return <div className="Index">
         <Slider />
 
         <div className="about">

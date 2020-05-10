@@ -11,10 +11,13 @@ const Slider = () => {
         const M = propsWindows.M;
         var elems = document.querySelectorAll('.slider');
 
+        var tamContainer = document.querySelector(".CSlider") as HTMLElement;
+
         var options = {
-            interval: 3000,
-            height: 700
+            interval: 3000
         }
+
+
 
         var instances = M.Slider.init(elems, options);
 

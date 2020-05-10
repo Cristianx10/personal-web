@@ -1,10 +1,14 @@
 .Footer{
 
+
+    height: 100vh;
+    background: #2E4052;
+
     &__container{
         padding-top: 50px;
         padding-bottom: 50px;
-        background: #2E4052;
         
+        height: 100%;
 
         display: flex;
         justify-content: space-evenly;

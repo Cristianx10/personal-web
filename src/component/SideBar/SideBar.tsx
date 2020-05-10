@@ -7,7 +7,6 @@ const SideBar = () => {
     useEffect(() => {
 
         const W = window as any;
-
         var elems = document.querySelectorAll('.sidenav');
         var instances = W.M.Sidenav.init(elems, {});
 
