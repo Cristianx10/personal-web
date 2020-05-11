@@ -63,9 +63,9 @@ const Portafolio = (props: IPortafolio) => {
                     onClick={(e: ICard) => {
                         setUrl(e.url);
                     }}
-                    title="Skyline Design"
-                    url="https://www.behance.net/gallery/58648973/Skyline-Design"
-                    background="/img/portafolio/preview/skyline.png"
+                    title="PROBABILISTIC"
+                    url="https://www.behance.net/gallery/96882017/PROBABILISTIC"
+                    background="/img/portafolio/preview/probabilistic.jpg"
                 />
                 <Card
                     onClick={(e: ICard) => {
