@@ -29,7 +29,7 @@ const Portafolio = (props: IPortafolio) => {
 
                 <Card
                     onClick={(e: ICard) => {
-                        setUrl(e.url);
+                      //  setUrl(e.url);
                     }}
                     title="Marca personal"
                     url="https://www.behance.net/gallery/96505503/Marca-personal"
@@ -37,7 +37,7 @@ const Portafolio = (props: IPortafolio) => {
                 />
                 <Card
                     onClick={(e: ICard) => {
-                        setUrl(e.url);
+                        //setUrl(e.url);
                     }}
                     title="Pizza Proyect"
                     url="https://www.behance.net/gallery/71043941/Pizza-Proyect"
@@ -45,7 +45,7 @@ const Portafolio = (props: IPortafolio) => {
                 />
                 <Card
                     onClick={(e: ICard) => {
-                        setUrl(e.url);
+                       // setUrl(e.url);
                     }}
                     title="Cannion"
                     url="https://www.behance.net/gallery/76121035/CANNIO"
@@ -53,7 +53,7 @@ const Portafolio = (props: IPortafolio) => {
                 />
                 <Card
                     onClick={(e: ICard) => {
-                        setUrl(e.url);
+                        //setUrl(e.url);
                     }}
                     title="Lumen"
                     url="https://www.behance.net/gallery/88879877/Lumen"
@@ -61,7 +61,7 @@ const Portafolio = (props: IPortafolio) => {
                 />
                 <Card
                     onClick={(e: ICard) => {
-                        setUrl(e.url);
+                        //setUrl(e.url);
                     }}
                     title="PROBABILISTIC"
                     url="https://www.behance.net/gallery/96882017/PROBABILISTIC"
@@ -69,7 +69,7 @@ const Portafolio = (props: IPortafolio) => {
                 />
                 <Card
                     onClick={(e: ICard) => {
-                        setUrl(e.url);
+                        //setUrl(e.url);
                     }}
                     title="PrimeVideo"
                     url="https://www.behance.net/gallery/66274949/Prime-Video-Redesign"
